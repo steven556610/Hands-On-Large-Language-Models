@@ -1,0 +1,10 @@
+env build
+
+macOS:
+    package: 
+    > torch version downgrade
+    > bitsandbytes downgrade
+    sudo xcodebuild -license
+
+jupyter 1:
+    adjust cuda to cpu
